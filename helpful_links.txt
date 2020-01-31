@@ -1,3 +1,6 @@
 #Global fiber and infrastructure
 https://cloud.google.com/about/locations/#network
 https://cloud.google.com/about/locations/#regions
+
+#Best Practices
+https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations
