@@ -1,6 +1,25 @@
+#All GCP Services
+https://cloud.google.com/products
+
 #Global fiber and infrastructure
 https://cloud.google.com/about/locations/#network
 https://cloud.google.com/about/locations/#regions
 
 #Best Practices
 https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations
+
+#Cloud Console link
+https://console.cloud.google.com/
+
+#Cloud IAM Roles
+https://cloud.google.com/iam/docs/understanding-roles
+
+#Service Accounts
+https://cloud.google.com/iam/docs/service-accounts
+
+#Cloud SDK
+https://cloud.google.com/sdk/
+
+#Billing details and export examples
+https://cloud.google.com/billing/docs/how-to
+
