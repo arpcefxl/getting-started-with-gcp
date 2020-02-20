@@ -1,0 +1,4 @@
+Explore primitive and predefined roles
+Create custom role
+Add a member to the new project
+Assign role to member

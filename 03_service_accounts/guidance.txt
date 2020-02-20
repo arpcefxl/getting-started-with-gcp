@@ -1,0 +1,3 @@
+Create Service Account
+Assign role to service account
+Create key for service account

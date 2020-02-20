@@ -1,0 +1,4 @@
+Show the building blocks list
+Show the Cloud Shell
+Create a new project
+Explore the API enabling process
