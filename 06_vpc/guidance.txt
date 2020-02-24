@@ -1,0 +1,4 @@
+Explore default VPC
+Create Custom Mode VPC in Cloud Console
+Deploy Custom Mode VPC using Cloud SDK
+  for this you can use the script, just change variable as needed!

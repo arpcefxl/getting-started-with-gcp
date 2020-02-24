@@ -23,3 +23,11 @@ https://cloud.google.com/sdk/
 #Billing details and export examples
 https://cloud.google.com/billing/docs/how-to
 
+#VPC Overview
+https://cloud.google.com/vpc/docs/vpc
+
+#Hybrid Network design patterns
+https://cloud.google.com/solutions/hybrid-and-multi-cloud-network-topologies
+
+#Load Balancing documentation
+https://cloud.google.com/load-balancing/docs/load-balancing-overview
