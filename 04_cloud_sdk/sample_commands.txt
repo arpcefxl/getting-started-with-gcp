@@ -1,0 +1,16 @@
+#This is a list of sample commands that can be run to test the Cloud SDK
+
+#Initialize the Cloud SDK, including ability to create new configs interactively
+#Can launch a browser for authentication
+gcloud init
+
+#List all the installed Cloud SDK components
+gcloud components list
+#Update all Cloud SDK components
+gcloud components update
+
+#List the configurations available, including default
+gcloud config list
+
+#List all available projects from the current ID
+gcloud projects list

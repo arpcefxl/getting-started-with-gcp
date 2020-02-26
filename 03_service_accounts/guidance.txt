@@ -1,3 +1,5 @@
 Create Service Account
 Assign role to service account
+Use Compute Admin for purposes of the demonstration
 Create key for service account
+This key can be used with Cloud SDK to impersonate the service account
