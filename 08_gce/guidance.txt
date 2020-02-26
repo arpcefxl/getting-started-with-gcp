@@ -1,0 +1,4 @@
+Launch GCE Instance (Console)
+Launch GCE Instance (Cloud SDK)
+Create Unmanaged Instance Group
+Create Load Balancer

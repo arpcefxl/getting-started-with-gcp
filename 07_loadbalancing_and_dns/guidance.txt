@@ -1,4 +1,5 @@
 Explore Cloud LB Dashboard
 Explore LB Creation Options
-Explore Coud DNS Dashboard
-Create Private DNS Zone
+Explore Cloud DNS Dashboard
+Create Private DNS Zone using script
+
