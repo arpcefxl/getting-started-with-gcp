@@ -1,4 +1,5 @@
 Explore primitive and predefined roles
 Create custom role
+#These can be done via Cloud Console or Cloud SDK
 Add a member to the new project
 Assign role to member
