@@ -31,3 +31,6 @@ https://cloud.google.com/solutions/hybrid-and-multi-cloud-network-topologies
 
 #Load Balancing documentation
 https://cloud.google.com/load-balancing/docs/load-balancing-overview
+
+#Pricing Calculator
+https://cloud.google.com/products/calculator
