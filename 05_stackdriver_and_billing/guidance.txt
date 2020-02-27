@@ -1,4 +1,5 @@
-Sign up for StackDriver
 Explore default dashboards
 Explore billing data
 Create Billing alarm
+Show billing data export to BigQuery
+  Requires creation of a BigQuery table first!

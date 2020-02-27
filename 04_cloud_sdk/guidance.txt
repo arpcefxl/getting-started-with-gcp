@@ -1,4 +1,4 @@
 Explore Cloud SDK install steps
 https://cloud.google.com/sdk/docs/downloads-versioned-archives
-Use service account with Cloud SDK
+Configure Cloud SDK
 Explore Cloud SDK configs
