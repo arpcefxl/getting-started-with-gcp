@@ -1,0 +1,2 @@
+Create a function from the console
+Deploy a function using Cloud SDK
