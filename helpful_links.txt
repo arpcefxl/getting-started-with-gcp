@@ -34,3 +34,29 @@ https://cloud.google.com/load-balancing/docs/load-balancing-overview
 
 #Pricing Calculator
 https://cloud.google.com/products/calculator
+
+#GCE Machine Types
+https://cloud.google.com/compute/docs/machine-types
+
+#GCE Pricing - IMPORTANT!
+https://cloud.google.com/compute/all-pricing
+
+#Deploying a Cloud Function from the Cloud SDK
+https://cloud.google.com/functions/docs/how-to
+
+#Quick comparison of storage options from Local SSD to Cloud Storage
+https://cloud.google.com/compute/docs/disks
+
+#Comparison of Cloud Storage classes
+https://cloud.google.com/storage/docs/storage-classes
+
+#Explanation of Cloud Storage location types
+https://cloud.google.com/storage/docs/locations
+
+#Cloud SQL features and engine types
+https://cloud.google.com/sql/docs/features
+
+#Spanner is a unique service, here are some whitepapers!
+https://cloud.google.com/spanner/docs/whitepapers
+
+#Explanation of Instance Groups (managed and unmanaged)
