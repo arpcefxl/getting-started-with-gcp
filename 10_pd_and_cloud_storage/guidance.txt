@@ -1,0 +1,5 @@
+Create PD
+Attach PD to GCE instance
+Upsize PD
+Create bucket and explore options
+Explore storage transfer options
