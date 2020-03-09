@@ -60,3 +60,10 @@ https://cloud.google.com/sql/docs/features
 https://cloud.google.com/spanner/docs/whitepapers
 
 #Explanation of Instance Groups (managed and unmanaged)
+https://cloud.google.com/compute/docs/instance-groups
+
+#Deploy an auto-scaled web application
+https://cloud.google.com/compute/docs/tutorials/high-scalability-autoscaling
+
+#Deploy a sample Node.js application using App Engine
+https://cloud.google.com/appengine/docs/standard/nodejs/quickstart

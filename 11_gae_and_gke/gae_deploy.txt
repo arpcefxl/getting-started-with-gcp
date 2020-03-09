@@ -1,0 +1,12 @@
+#Pull the sample code from Git
+git clone https://github.com/GoogleCloudPlatform/nodejs-docs-samples
+
+#cd into the hello world app directory
+cd nodejs-docs-samples/appengine/hello-world/standard
+
+#build the app
+npm install
+
+#from the same hello-world/standard directory run the following
+gcloud app deploy
+

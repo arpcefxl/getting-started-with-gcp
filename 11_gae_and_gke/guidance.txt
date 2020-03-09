@@ -1,0 +1,2 @@
+Deploy GAE Standard app (Cloud SDK)
+Deploy GKE Cluster (Cloud SDK) 
