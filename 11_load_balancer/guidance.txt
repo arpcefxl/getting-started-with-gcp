@@ -1,0 +1,3 @@
+Create unmanaged instance group
+Attach existing instance to unmanaged IG
+Finish the load balancer provisioning
