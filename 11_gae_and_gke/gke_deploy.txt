@@ -1,0 +1,22 @@
+#Make sure you have the zone set in gcloud config
+gcloud config set compute/zone compute-zone <ZONE>
+
+#create a small cluster with one GCE node
+gcloud container clusters create helloworld-cluster --num-nodes=1
+
+#extract credentials to work with the cluster via kubectl
+gcloud container clusters get-credentials helloworld-cluster
+
+#Deploy a hello world application to the newly launched cluster
+kubectl create deployment helloworld-app --image=gcr.io/google-samples/hello-app:1.0
+
+#Expose the application to the world on port 80
+kubectl expose deployment helloworld-app --type LoadBalancer --port 80 --target-port 8080
+
+#Check the resources and get the public IP information
+kubectl get pods
+kubectl get service helloworld-app
+
+#Clean up resources afterward
+kubectl delete service helloworld-app
+gcloud container clusters delete helloworld-cluster-app
