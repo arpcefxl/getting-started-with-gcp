@@ -1,0 +1,25 @@
+#Clone the Google-supplied repo for Deployment Manager examples
+git clone https://github.com/GoogleCloudPlatform/deploymentmanager-samples.git
+
+#cd into the directory for launching a single vm
+cd deploymentmanager-samples/examples/v2/single_vm/python
+
+#edit the yaml template and set the zone parameter to your preference
+
+#to test the template without actually deploying resources execute the below command
+#make sure the output looks something like the following:
+#MacBook-Pro-2:python csmith$ gcloud deployment-manager deployments create single-vm --config vm.yaml --preview
+#The fingerprint of the deployment is MezSNiacs7or0qZGjdJJjw==
+#Waiting for create [operation-1583902211111-5a08cf8a6fb12-bcae1efd-5bebc0c2]...done.                                     
+#Create operation operation-1583902211111-5a08cf8a6fb12-bcae1efd-5bebc0c2 completed successfully.
+#NAME                TYPE                 STATE       ERRORS  INTENT
+#datadisk-single-vm  compute.v1.disk      IN_PREVIEW  []      CREATE_OR_ACQUIRE
+#vm-single-vm        compute.v1.instance  IN_PREVIEW  []      CREATE_OR_ACQUIRE
+gcloud deployment-manager deployments create single-vm --config vm.yaml --preview
+
+#to fully deploy the resources
+gcloud deployment-manager deployments update single-vm
+#verify resource were deployed (using Cloud Console or Cloud SDK)
+
+#to delete the deployment
+gcloud deployment-manager deployments delete single-vm
