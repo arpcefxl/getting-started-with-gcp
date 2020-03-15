@@ -67,3 +67,12 @@ https://cloud.google.com/compute/docs/tutorials/high-scalability-autoscaling
 
 #Deploy a sample Node.js application using App Engine
 https://cloud.google.com/appengine/docs/standard/nodejs/quickstart
+
+#Cloud SDK scripting primer
+https://cloud.google.com/sdk/docs/scripting-gcloud
+
+#Differences between BigTable and HBase
+https://cloud.google.com/bigtable/docs/hbase-differences
+
+#BigTable performance
+https://cloud.google.com/bigtable/docs/performance

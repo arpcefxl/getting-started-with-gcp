@@ -1,0 +1,31 @@
+#The following will query your invoice total, per month:
+#These use my own table data, modify to match your project and table name!
+SELECT
+  invoice.month,
+  SUM(cost)
+    + SUM(IFNULL((SELECT SUM(c.amount)
+                  FROM UNNEST(credits) c), 0))
+    AS total,
+  (SUM(CAST(cost * 1000000 AS int64))
+    + SUM(IFNULL((SELECT SUM(CAST(c.amount * 1000000 as int64))
+                  FROM UNNEST(credits) c), 0))) / 1000000
+    AS total_exact
+FROM `billing_export.gcp_billing_export_v1_00C400_E75F97_77D597`
+GROUP BY 1
+ORDER BY 1 ASC
+;
+
+#Granular cost data - be prepared for a lot of output
+SELECT
+  sku.description,
+  TO_JSON_STRING(labels) as labels,
+ cost as cost
+FROM `billing_export.gcp_billing_export_v1_00C400_E75F97_77D597`;
+
+#Organize billing data by label
+SELECT
+  TO_JSON_STRING(labels) as labels,
+  sum(cost) as cost
+FROM `billing_export.gcp_billing_export_v1_00C400_E75F97_77D597`
+GROUP BY labels;
+
