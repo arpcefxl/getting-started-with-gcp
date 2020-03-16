@@ -1,6 +1,9 @@
 #All GCP Services
 https://cloud.google.com/products
 
+#GCP Free Tier
+https://cloud.google.com/free
+
 #Global fiber and infrastructure
 https://cloud.google.com/about/locations/#network
 https://cloud.google.com/about/locations/#regions
